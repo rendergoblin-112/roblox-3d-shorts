@@ -1,0 +1,24 @@
+{
+  "name": "roblox-3d-shorts-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "three.js engine for wordless blocky-family 3D comedy shorts (9:16). Driven by the roblox-3d-shorts Claude skill.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "check": "node tools/cli.mjs check",
+    "doctor": "node tools/cli.mjs doctor",
+    "example": "node tools/cli.mjs build ../examples/wifi-lag out/wifi-lag.mp4",
+    "example:stills": "node tools/cli.mjs stills ../examples/wifi-lag out/wifi-lag-stills mid"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "5.3.0",
+    "@fontsource/noto-color-emoji": "5.3.2",
+    "@fontsource/nunito": "5.3.0",
+    "puppeteer": "25.18.1",
+    "three": "0.170.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "about": "Sounds shipped in template/sfx, generated with the ElevenLabs sound-effects and music APIs for the WiFi-lag short. Regenerate with: node tools/cli.mjs regen-sfx [--force] (needs ELEVENLABS_API_KEY). 'starts' = where the sound actually begins inside the file (measured), so cues can sit on the exact frame.",
+  "sounds": [
+    { "file": "huh.mp3", "kind": "voice", "seconds": 1.2, "starts": 0.03, "prompt": "cartoon young boy says a short confused 'huh?' with rising pitch, single interjection, dry close mic" },
+    { "file": "nonono.mp3", "kind": "voice", "seconds": 1.6, "starts": 0.01, "prompt": "cartoon young boy panicking 'no no no no' fast, frustrated, close mic, no music" },
+    { "file": "scream_short.mp3", "kind": "voice", "seconds": 1.0, "starts": 0.0, "prompt": "cartoon young boy short angry frustrated yell 'AAGH', close mic, dry" },
+    { "file": "scream_long.mp3", "kind": "voice", "seconds": 2.2, "starts": 0.0, "prompt": "cartoon young boy long furious rage scream, gamer rage, close mic, dry, no words" },
+    { "file": "yes.mp3", "kind": "voice", "seconds": 1.2, "starts": 0.0, "prompt": "cartoon young boy triumphant victory yell 'YESSS', excited, close mic" },
+    { "file": "whimper.mp3", "kind": "voice", "seconds": 1.0, "starts": 0.0, "prompt": "cartoon young boy small sad whimper in the dark, quiet, no words" },
+    { "file": "powerout.mp3", "kind": "sfx", "seconds": 1.6, "starts": 0.0, "prompt": "whole house power outage: electrical hum and appliances shut down abruptly with a heavy breaker clunk, then silence" },
+    { "file": "crowd.mp3", "kind": "sfx", "seconds": 2.0, "starts": 0.0, "prompt": "tinny TV broadcast of a stadium crowd cheering a goal, heard from a television speaker in a living room" },
+    { "file": "tvoff.mp3", "kind": "sfx", "seconds": 0.8, "starts": 0.22, "prompt": "old television switching off with a click and a short high whine fading" },
+    { "file": "lag.mp3", "kind": "sfx", "seconds": 1.4, "starts": 0.0, "prompt": "video game network lag freeze: glitchy digital stutter, buffering blips, audio dropout" },
+    { "file": "win.mp3", "kind": "sfx", "seconds": 2.0, "starts": 0.0, "prompt": "short cheerful cartoon video game victory jingle, bright synth and bells, 2 seconds" },
+    { "file": "knuckles.mp3", "kind": "sfx", "seconds": 0.8, "starts": 0.33, "prompt": "knuckles cracking, three quick pops, close" },
+    { "file": "bed.mp3", "kind": "music", "music": true, "seconds": 46, "starts": 0.0, "prompt": "Playful upbeat cartoon comedy background music for a short video about a kid gaming: bouncy pizzicato strings, marimba, light drums, quirky and warm, steady energy, no vocals, loopable" }
+  ]
+}

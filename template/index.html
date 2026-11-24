@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="node_modules/@fontsource/noto-color-emoji/index.css">
+<style>
+  @font-face { font-family: 'Nunito'; font-weight: 900; src: url('node_modules/@fontsource/nunito/files/nunito-latin-900-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Nunito'; font-weight: 800; src: url('node_modules/@fontsource/nunito/files/nunito-latin-800-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Fredoka'; font-weight: 700; src: url('node_modules/@fontsource/fredoka/files/fredoka-latin-700-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Fredoka'; font-weight: 600; src: url('node_modules/@fontsource/fredoka/files/fredoka-latin-600-normal.woff2') format('woff2'); }
+  html, body { margin: 0; padding: 0; background: #000; width: 1080px; height: 1920px; overflow: hidden; }
+  /* Style A banded layout: picture 1080x1210 starting at y=355, black bands above and below. */
+  #pic { position: absolute; left: 0; top: 355px; width: 1080px; height: 1210px; }
+  #pic canvas { display: block; width: 1080px; height: 1210px; }
+  /* Pinned caption: 2 lines, white, bold rounded sans, centred, text top ~0.10 H, no stroke on the band. */
+  #caption { position: absolute; left: 0; width: 1080px; top: 180px; text-align: center; color: #fff;
+             font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 57px; line-height: 70px; letter-spacing: -0.3px; }
+  #caption .emo { font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji'; font-size: 48px; }
+  /* Watermark: low-opacity handle centre-left of the picture. Empty unless WATERMARK is set in short.js. */
+  #wm { position: absolute; left: 70px; top: 1050px; color: rgba(255,255,255,0.42); font-family: 'Nunito', sans-serif; font-weight: 800; font-size: 40px; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "./node_modules/three/build/three.module.js", "three/addons/": "./node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+  <div id="caption"></div>
+  <div id="pic"></div>
+  <div id="wm"></div>
+  <script type="module" src="engine/main.js"></script>
+</body>
+</html>

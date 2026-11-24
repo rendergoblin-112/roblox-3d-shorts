@@ -1,0 +1,10 @@
+node_modules/
+template/.cache/
+out/
+renders/
+stills/
+compare/
+*.raw.wav
+*.silent.mp4
+.DS_Store
+.env
